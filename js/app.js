@@ -1,5 +1,5 @@
 var $input = document.getElementById('searchBox');
-var baseUrl = "http://sg.media-imdb.com/suggests/";
+var baseUrl = "https://sg.media-imdb.com/suggests/";
 var $result = document.getElementById('result');
 var body = document.getElementsByTagName('body');
 
