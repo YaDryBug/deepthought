@@ -49,7 +49,7 @@ $(document).ready(function(){
     // );
     // load imdb rating using movie id
     $.ajax({
-        url: "http://www.imdb.com/title/" + movie + "/",
+        url: "https://www.imdb.com/title/" + movie + "/",
         dataType: 'html',
         cache: true,
         jsonp: false,
