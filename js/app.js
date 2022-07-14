@@ -45,9 +45,9 @@ $input.addEventListener('keyup', function(){
 		    		var destinationUrl;
 
 		    		if(category === "tt") {
-		    			destinationUrl = "?movie=" + result.d[i].id;
+		    			destinationUrl = "?movie=" + result.d[i].l;
 		    		} else {
-		    			destinationUrl = "?movie=" + result.d[i].id;
+		    			destinationUrl = "?movie=" + result.d[i].l;
 		    		}
 		    		
                     // resultRow.setAttribute('href', "#");
